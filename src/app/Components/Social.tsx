@@ -11,7 +11,7 @@ type Props = {};
 
 const Social = (props: Props) => {
   return (
-    <div className=" hidden md:flex gap-4 text-xl">
+    <div className=" flex gap-4 text-xl">
       <Link href={"#"}>
         <FaFacebookF />
       </Link>

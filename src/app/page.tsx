@@ -2,6 +2,7 @@ import Image from "next/image";
 import Hero from "./Components/Hero";
 import Card from "./Components/Card";
 import Post from "./Components/Post";
+import Tags from "./Components/Tags";
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
       <div className="w-[100%]">
         <Post />
       </div>
+      <Tags/>
     </div>
   );
 }

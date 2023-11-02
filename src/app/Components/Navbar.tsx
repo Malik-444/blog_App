@@ -22,7 +22,7 @@ const Navbar = (props: Props) => {
         >
           {isOpen ? <AiOutlineClose /> : <AiOutlineMenu />}
         </button>
-        <Social />
+        <div className="hidden md:flex"><Social/></div>
         <h1 className="text-6xl ">Talha</h1>
         <div className="text-lg flex md:bg-[#161618] gap-2 items-center py-1 px-2 border-none rounded-md">
           <input
