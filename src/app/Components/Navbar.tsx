@@ -61,7 +61,7 @@ const Navbar = (props: Props) => {
           About
         </Link>
         <Link
-          href={"#"}
+          href={"/contact"}
           className="text-[#818b96c9] cursor-pointer hover:text-[#fff]"
         >
           Contact
