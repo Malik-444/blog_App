@@ -55,7 +55,7 @@ const Navbar = (props: Props) => {
           Blog
         </Link>
         <Link
-          href={"#"}
+          href={"/about"}
           className="text-[#818b96c9] cursor-pointer hover:text-[#fff]"
         >
           About
