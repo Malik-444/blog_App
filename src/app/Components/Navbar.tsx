@@ -122,7 +122,7 @@ const Navbar = (props: Props) => {
           SignIn
         </Link>
       </div>
-      <div className="flex flex-col w-[100%] max-h-fit justify-center items-center gap-10 text-xl mt-8 ">
+      <div className="flex flex-col md:hidden w-[100%] max-h-fit justify-center items-center gap-10 text-xl mt-8 ">
         {isOpen && (
           <>
             <Link
@@ -142,31 +142,31 @@ const Navbar = (props: Props) => {
               {catIsHover && (
                 <div className="absolute -left-4 top-7 text-[#818b96c9] font-normal text-base bg-black py-4 px-4  flex flex-col gap-3 w-max z-50">
                   <Link
-                    href={"#"}
+                    href={"/categories/webDevelopment"}
                     className="  text-[#818b96c9] hover:text-white"
                   >
                     Web Development
                   </Link>
                   <Link
-                    href={"#"}
+                    href={"/categories/appDevelopment"}
                     className="  text-[#818b96c9] hover:text-white"
                   >
                     App Development
                   </Link>
                   <Link
-                    href={"#"}
+                    href={"/categories/machineLearning"}
                     className="  text-[#818b96c9] hover:text-white"
                   >
                     Machine Leraning
                   </Link>
                   <Link
-                    href={"#"}
+                    href={"/categories/dataScience"}
                     className="  text-[#818b96c9] hover:text-white"
                   >
                     Data Science
                   </Link>
                   <Link
-                    href={"#"}
+                    href={"/categories/darkWeb"}
                     className=" text-[#818b96c9] hover:text-white"
                   >
                     Dark Web
